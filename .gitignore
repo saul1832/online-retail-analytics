@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Ignorar checkpoints de notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Ignorar datasets y archivos grandes
+data/*.csv
+data/*.db
+data/*.xlsx
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Archivos de entorno
+.env
+.venv/
+>>>>>>> d1528fd (Initial commit - Online Retail Analytics project)
